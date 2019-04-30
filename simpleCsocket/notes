@@ -1,0 +1,13 @@
+Sockets are like telephones:
+1.use socket() to install the telephone.
+2.use bind() to bind the telephone numbers.
+3.use listen() to establish telephone wires.
+4.use connect() to make a phone call.
+5.use accept() to accept the phone call.
+6.finally close the socket.
+第一步是调用socket函数（安装电话机）|（要想打电话首先要进行电话机的安装）
+第二步是调用Bind函数进行标志的分配（在打电话时我们需要知道电话号码）
+第三步是调用listen函数进行电话线的连接（打电话是我们的电话之间是通过电话线进行连接的）
+其中如果是请求连接端（打电话）时，我们采用的是connect函数：
+最后一步就是调用accept函数进行接收（拿起电话接听）
+And close the socket.
