@@ -1,6 +1,0 @@
-Code for a simple socket server/client. Compile and run them seperately.
-From http://www.linuxhowtos.org/C_C++/socket.htm, check it out!
-Learned:
-Can define a
-void error(char* msg){} to send error msg. It calls perror, see man perror.
-
